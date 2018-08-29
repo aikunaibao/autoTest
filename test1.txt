@@ -1,4 +1,4 @@
 name wzc·111
+<<<<<<< HEAD
 发发发   nihao 
-this is branch
-this is master
+this is branch to merge master
