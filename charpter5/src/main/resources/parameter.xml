@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "parameter" parallel="methods" data-provider-thread-count="10" thread-count="5">
+    <test name = "patameterTest">
+        <classes>
+            <class name = "com.course.testng.parameter.Parameter"/>
+          <parameter name = "name" value="wzc"></parameter>
+            <parameter name = "age" value="10"></parameter>
+        </classes>
+    </test>
+</suite>
